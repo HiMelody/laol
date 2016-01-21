@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A2C4306E67A948260D504EB /* libPods-laol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A5ED5633446E5DBA366AF3 /* libPods-laol.a */; };
+		97F3478B1C50E82C0054A67D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F3478A1C50E82C0054A67D /* main.m */; };
+		97F3478E1C50E82C0054A67D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F3478D1C50E82C0054A67D /* AppDelegate.m */; };
+		97F347911C50E82C0054A67D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F347901C50E82C0054A67D /* ViewController.m */; };
+		97F347941C50E82C0054A67D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F347921C50E82C0054A67D /* Main.storyboard */; };
+		97F347961C50E82C0054A67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F347951C50E82C0054A67D /* Assets.xcassets */; };
+		97F347991C50E82C0054A67D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F347971C50E82C0054A67D /* LaunchScreen.storyboard */; };
+		97F347A41C50E82C0054A67D /* laolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F347A31C50E82C0054A67D /* laolTests.m */; };
+		97F347AF1C50E82C0054A67D /* laolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F347AE1C50E82C0054A67D /* laolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97F347A01C50E82C0054A67D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97F3477E1C50E82C0054A67D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97F347851C50E82C0054A67D;
+			remoteInfo = laol;
+		};
+		97F347AB1C50E82C0054A67D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97F3477E1C50E82C0054A67D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97F347851C50E82C0054A67D;
+			remoteInfo = laol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A5ED5633446E5DBA366AF3 /* libPods-laol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-laol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C9E650D9F76ADA66316867 /* Pods-laol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-laol.release.xcconfig"; path = "Pods/Target Support Files/Pods-laol/Pods-laol.release.xcconfig"; sourceTree = "<group>"; };
+		97F347861C50E82C0054A67D /* laol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F3478A1C50E82C0054A67D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97F3478C1C50E82C0054A67D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97F3478D1C50E82C0054A67D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97F3478F1C50E82C0054A67D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97F347901C50E82C0054A67D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97F347931C50E82C0054A67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97F347951C50E82C0054A67D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97F347981C50E82C0054A67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97F3479A1C50E82C0054A67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F3479F1C50E82C0054A67D /* laolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F347A31C50E82C0054A67D /* laolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = laolTests.m; sourceTree = "<group>"; };
+		97F347A51C50E82C0054A67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F347AA1C50E82C0054A67D /* laolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F347AE1C50E82C0054A67D /* laolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = laolUITests.m; sourceTree = "<group>"; };
+		97F347B01C50E82C0054A67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B60AF39872937C94951C59 /* Pods-laol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-laol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-laol/Pods-laol.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97F347831C50E82C0054A67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2C4306E67A948260D504EB /* libPods-laol.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F3479C1C50E82C0054A67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F347A71C50E82C0054A67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55AE472BA42CDF78926E31A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5B60AF39872937C94951C59 /* Pods-laol.debug.xcconfig */,
+				17C9E650D9F76ADA66316867 /* Pods-laol.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97F3477D1C50E82C0054A67D = {
+			isa = PBXGroup;
+			children = (
+				97F347881C50E82C0054A67D /* laol */,
+				97F347A21C50E82C0054A67D /* laolTests */,
+				97F347AD1C50E82C0054A67D /* laolUITests */,
+				97F347871C50E82C0054A67D /* Products */,
+				55AE472BA42CDF78926E31A9 /* Pods */,
+				A09C9E65B007565ABADCC6C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97F347871C50E82C0054A67D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97F347861C50E82C0054A67D /* laol.app */,
+				97F3479F1C50E82C0054A67D /* laolTests.xctest */,
+				97F347AA1C50E82C0054A67D /* laolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97F347881C50E82C0054A67D /* laol */ = {
+			isa = PBXGroup;
+			children = (
+				97F3478C1C50E82C0054A67D /* AppDelegate.h */,
+				97F3478D1C50E82C0054A67D /* AppDelegate.m */,
+				97F3478F1C50E82C0054A67D /* ViewController.h */,
+				97F347901C50E82C0054A67D /* ViewController.m */,
+				97F347921C50E82C0054A67D /* Main.storyboard */,
+				97F347951C50E82C0054A67D /* Assets.xcassets */,
+				97F347971C50E82C0054A67D /* LaunchScreen.storyboard */,
+				97F3479A1C50E82C0054A67D /* Info.plist */,
+				97F347891C50E82C0054A67D /* Supporting Files */,
+			);
+			path = laol;
+			sourceTree = "<group>";
+		};
+		97F347891C50E82C0054A67D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97F3478A1C50E82C0054A67D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97F347A21C50E82C0054A67D /* laolTests */ = {
+			isa = PBXGroup;
+			children = (
+				97F347A31C50E82C0054A67D /* laolTests.m */,
+				97F347A51C50E82C0054A67D /* Info.plist */,
+			);
+			path = laolTests;
+			sourceTree = "<group>";
+		};
+		97F347AD1C50E82C0054A67D /* laolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97F347AE1C50E82C0054A67D /* laolUITests.m */,
+				97F347B01C50E82C0054A67D /* Info.plist */,
+			);
+			path = laolUITests;
+			sourceTree = "<group>";
+		};
+		A09C9E65B007565ABADCC6C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05A5ED5633446E5DBA366AF3 /* libPods-laol.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97F347851C50E82C0054A67D /* laol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F347B31C50E82C0054A67D /* Build configuration list for PBXNativeTarget "laol" */;
+			buildPhases = (
+				5C790C69ABFC3EB901BFF0BA /* Check Pods Manifest.lock */,
+				97F347821C50E82C0054A67D /* Sources */,
+				97F347831C50E82C0054A67D /* Frameworks */,
+				97F347841C50E82C0054A67D /* Resources */,
+				79F6723E12A567CEAB2BF8E6 /* Embed Pods Frameworks */,
+				AE8BF8EF1D36DE4E4B557FD1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = laol;
+			productName = laol;
+			productReference = 97F347861C50E82C0054A67D /* laol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97F3479E1C50E82C0054A67D /* laolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F347B61C50E82C0054A67D /* Build configuration list for PBXNativeTarget "laolTests" */;
+			buildPhases = (
+				97F3479B1C50E82C0054A67D /* Sources */,
+				97F3479C1C50E82C0054A67D /* Frameworks */,
+				97F3479D1C50E82C0054A67D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97F347A11C50E82C0054A67D /* PBXTargetDependency */,
+			);
+			name = laolTests;
+			productName = laolTests;
+			productReference = 97F3479F1C50E82C0054A67D /* laolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97F347A91C50E82C0054A67D /* laolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F347B91C50E82C0054A67D /* Build configuration list for PBXNativeTarget "laolUITests" */;
+			buildPhases = (
+				97F347A61C50E82C0054A67D /* Sources */,
+				97F347A71C50E82C0054A67D /* Frameworks */,
+				97F347A81C50E82C0054A67D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97F347AC1C50E82C0054A67D /* PBXTargetDependency */,
+			);
+			name = laolUITests;
+			productName = laolUITests;
+			productReference = 97F347AA1C50E82C0054A67D /* laolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97F3477E1C50E82C0054A67D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "芳坪梁";
+				TargetAttributes = {
+					97F347851C50E82C0054A67D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = K2RQ6CXRD4;
+					};
+					97F3479E1C50E82C0054A67D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 97F347851C50E82C0054A67D;
+					};
+					97F347A91C50E82C0054A67D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 97F347851C50E82C0054A67D;
+					};
+				};
+			};
+			buildConfigurationList = 97F347811C50E82C0054A67D /* Build configuration list for PBXProject "laol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97F3477D1C50E82C0054A67D;
+			productRefGroup = 97F347871C50E82C0054A67D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97F347851C50E82C0054A67D /* laol */,
+				97F3479E1C50E82C0054A67D /* laolTests */,
+				97F347A91C50E82C0054A67D /* laolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97F347841C50E82C0054A67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F347991C50E82C0054A67D /* LaunchScreen.storyboard in Resources */,
+				97F347961C50E82C0054A67D /* Assets.xcassets in Resources */,
+				97F347941C50E82C0054A67D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F3479D1C50E82C0054A67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F347A81C50E82C0054A67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C790C69ABFC3EB901BFF0BA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79F6723E12A567CEAB2BF8E6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-laol/Pods-laol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE8BF8EF1D36DE4E4B557FD1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-laol/Pods-laol-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97F347821C50E82C0054A67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F347911C50E82C0054A67D /* ViewController.m in Sources */,
+				97F3478E1C50E82C0054A67D /* AppDelegate.m in Sources */,
+				97F3478B1C50E82C0054A67D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F3479B1C50E82C0054A67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F347A41C50E82C0054A67D /* laolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F347A61C50E82C0054A67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F347AF1C50E82C0054A67D /* laolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97F347A11C50E82C0054A67D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97F347851C50E82C0054A67D /* laol */;
+			targetProxy = 97F347A01C50E82C0054A67D /* PBXContainerItemProxy */;
+		};
+		97F347AC1C50E82C0054A67D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97F347851C50E82C0054A67D /* laol */;
+			targetProxy = 97F347AB1C50E82C0054A67D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97F347921C50E82C0054A67D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F347931C50E82C0054A67D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97F347971C50E82C0054A67D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F347981C50E82C0054A67D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97F347B11C50E82C0054A67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97F347B21C50E82C0054A67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97F347B41C50E82C0054A67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B60AF39872937C94951C59 /* Pods-laol.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = laol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfp.laol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97F347B51C50E82C0054A67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C9E650D9F76ADA66316867 /* Pods-laol.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = laol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfp.laol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97F347B71C50E82C0054A67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = laolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfp.laolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/laol.app/laol";
+			};
+			name = Debug;
+		};
+		97F347B81C50E82C0054A67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = laolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfp.laolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/laol.app/laol";
+			};
+			name = Release;
+		};
+		97F347BA1C50E82C0054A67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = laolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfp.laolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = laol;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		97F347BB1C50E82C0054A67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = laolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfp.laolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = laol;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97F347811C50E82C0054A67D /* Build configuration list for PBXProject "laol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F347B11C50E82C0054A67D /* Debug */,
+				97F347B21C50E82C0054A67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F347B31C50E82C0054A67D /* Build configuration list for PBXNativeTarget "laol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F347B41C50E82C0054A67D /* Debug */,
+				97F347B51C50E82C0054A67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F347B61C50E82C0054A67D /* Build configuration list for PBXNativeTarget "laolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F347B71C50E82C0054A67D /* Debug */,
+				97F347B81C50E82C0054A67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F347B91C50E82C0054A67D /* Build configuration list for PBXNativeTarget "laolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F347BA1C50E82C0054A67D /* Debug */,
+				97F347BB1C50E82C0054A67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97F3477E1C50E82C0054A67D /* Project object */;
+}
