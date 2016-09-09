@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  laol
 //
 //  Created by 芳坪梁 on 16/1/21.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Mantle/Mantle.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface LLBaseViewController : UIViewController
 
 
 @end

@@ -5,6 +5,7 @@
 
 target 'laol' do
 pod 'FMDB', '~> 2.5'
+pod 'Mantle', '~> 2.0.5'
 end
 
 target 'laolTests' do

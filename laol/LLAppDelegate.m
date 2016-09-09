@@ -6,17 +6,28 @@
 //  Copyright © 2016年 芳坪梁. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "LLAppDelegate.h"
+#import "LLMainViewController.h"
 
-@interface AppDelegate ()
+@interface LLAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation LLAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window setBackgroundColor:[UIColor clearColor]];
+    
+    
+    LLMainViewController *mainView = [[LLMainViewController alloc] init];
+    self.window.rootViewController = mainView;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

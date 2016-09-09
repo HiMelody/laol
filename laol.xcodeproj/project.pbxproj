@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3A2C4306E67A948260D504EB /* libPods-laol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A5ED5633446E5DBA366AF3 /* libPods-laol.a */; };
+		975C10601C5EFCE8004E1BAD /* lll.db in Resources */ = {isa = PBXBuildFile; fileRef = 975C105F1C5EFCE8004E1BAD /* lll.db */; };
+		975C106F1C5F0CD6004E1BAD /* LLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 975C106E1C5F0CD6004E1BAD /* LLBaseViewController.m */; };
+		975C10721C5F0D06004E1BAD /* LLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 975C10711C5F0D06004E1BAD /* LLMainViewController.m */; };
 		97F3478B1C50E82C0054A67D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F3478A1C50E82C0054A67D /* main.m */; };
-		97F3478E1C50E82C0054A67D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F3478D1C50E82C0054A67D /* AppDelegate.m */; };
-		97F347911C50E82C0054A67D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F347901C50E82C0054A67D /* ViewController.m */; };
-		97F347941C50E82C0054A67D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F347921C50E82C0054A67D /* Main.storyboard */; };
+		97F3478E1C50E82C0054A67D /* LLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F3478D1C50E82C0054A67D /* LLAppDelegate.m */; };
 		97F347961C50E82C0054A67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F347951C50E82C0054A67D /* Assets.xcassets */; };
 		97F347991C50E82C0054A67D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F347971C50E82C0054A67D /* LaunchScreen.storyboard */; };
 		97F347A41C50E82C0054A67D /* laolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F347A31C50E82C0054A67D /* laolTests.m */; };
@@ -38,13 +39,17 @@
 /* Begin PBXFileReference section */
 		05A5ED5633446E5DBA366AF3 /* libPods-laol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-laol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C9E650D9F76ADA66316867 /* Pods-laol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-laol.release.xcconfig"; path = "Pods/Target Support Files/Pods-laol/Pods-laol.release.xcconfig"; sourceTree = "<group>"; };
+		975C10591C5EFC40004E1BAD /* laolBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laolBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		975C105B1C5EFC40004E1BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975C105F1C5EFCE8004E1BAD /* lll.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = lll.db; sourceTree = "<group>"; };
+		975C106D1C5F0CD6004E1BAD /* LLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBaseViewController.h; sourceTree = "<group>"; };
+		975C106E1C5F0CD6004E1BAD /* LLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBaseViewController.m; sourceTree = "<group>"; };
+		975C10701C5F0D06004E1BAD /* LLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMainViewController.h; sourceTree = "<group>"; };
+		975C10711C5F0D06004E1BAD /* LLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMainViewController.m; sourceTree = "<group>"; };
 		97F347861C50E82C0054A67D /* laol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F3478A1C50E82C0054A67D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		97F3478C1C50E82C0054A67D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		97F3478D1C50E82C0054A67D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		97F3478F1C50E82C0054A67D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		97F347901C50E82C0054A67D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		97F347931C50E82C0054A67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97F3478C1C50E82C0054A67D /* LLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAppDelegate.h; sourceTree = "<group>"; };
+		97F3478D1C50E82C0054A67D /* LLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAppDelegate.m; sourceTree = "<group>"; };
 		97F347951C50E82C0054A67D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97F347981C50E82C0054A67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97F3479A1C50E82C0054A67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +63,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		975C10561C5EFC40004E1BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97F347831C50E82C0054A67D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,12 +104,54 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		975C105A1C5EFC40004E1BAD /* laolBundle */ = {
+			isa = PBXGroup;
+			children = (
+				975C105F1C5EFCE8004E1BAD /* lll.db */,
+				975C105B1C5EFC40004E1BAD /* Info.plist */,
+			);
+			path = laolBundle;
+			sourceTree = "<group>";
+		};
+		975C10691C5F0C6F004E1BAD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		975C106A1C5F0C6F004E1BAD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				975C106D1C5F0CD6004E1BAD /* LLBaseViewController.h */,
+				975C106E1C5F0CD6004E1BAD /* LLBaseViewController.m */,
+				975C10701C5F0D06004E1BAD /* LLMainViewController.h */,
+				975C10711C5F0D06004E1BAD /* LLMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		975C106B1C5F0C6F004E1BAD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		975C106C1C5F0C6F004E1BAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		97F3477D1C50E82C0054A67D = {
 			isa = PBXGroup;
 			children = (
 				97F347881C50E82C0054A67D /* laol */,
 				97F347A21C50E82C0054A67D /* laolTests */,
 				97F347AD1C50E82C0054A67D /* laolUITests */,
+				975C105A1C5EFC40004E1BAD /* laolBundle */,
 				97F347871C50E82C0054A67D /* Products */,
 				55AE472BA42CDF78926E31A9 /* Pods */,
 				A09C9E65B007565ABADCC6C4 /* Frameworks */,
@@ -110,6 +164,7 @@
 				97F347861C50E82C0054A67D /* laol.app */,
 				97F3479F1C50E82C0054A67D /* laolTests.xctest */,
 				97F347AA1C50E82C0054A67D /* laolUITests.xctest */,
+				975C10591C5EFC40004E1BAD /* laolBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,11 +172,12 @@
 		97F347881C50E82C0054A67D /* laol */ = {
 			isa = PBXGroup;
 			children = (
-				97F3478C1C50E82C0054A67D /* AppDelegate.h */,
-				97F3478D1C50E82C0054A67D /* AppDelegate.m */,
-				97F3478F1C50E82C0054A67D /* ViewController.h */,
-				97F347901C50E82C0054A67D /* ViewController.m */,
-				97F347921C50E82C0054A67D /* Main.storyboard */,
+				975C10691C5F0C6F004E1BAD /* Common */,
+				975C106A1C5F0C6F004E1BAD /* Controller */,
+				975C106B1C5F0C6F004E1BAD /* Core */,
+				975C106C1C5F0C6F004E1BAD /* View */,
+				97F3478C1C50E82C0054A67D /* LLAppDelegate.h */,
+				97F3478D1C50E82C0054A67D /* LLAppDelegate.m */,
 				97F347951C50E82C0054A67D /* Assets.xcassets */,
 				97F347971C50E82C0054A67D /* LaunchScreen.storyboard */,
 				97F3479A1C50E82C0054A67D /* Info.plist */,
@@ -167,6 +223,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		975C10581C5EFC40004E1BAD /* laolBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 975C105E1C5EFC40004E1BAD /* Build configuration list for PBXNativeTarget "laolBundle" */;
+			buildPhases = (
+				975C10551C5EFC40004E1BAD /* Sources */,
+				975C10561C5EFC40004E1BAD /* Frameworks */,
+				975C10571C5EFC40004E1BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = laolBundle;
+			productName = laolBundle;
+			productReference = 975C10591C5EFC40004E1BAD /* laolBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		97F347851C50E82C0054A67D /* laol */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97F347B31C50E82C0054A67D /* Build configuration list for PBXNativeTarget "laol" */;
@@ -232,6 +305,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "芳坪梁";
 				TargetAttributes = {
+					975C10581C5EFC40004E1BAD = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					97F347851C50E82C0054A67D = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = K2RQ6CXRD4;
@@ -262,18 +338,26 @@
 				97F347851C50E82C0054A67D /* laol */,
 				97F3479E1C50E82C0054A67D /* laolTests */,
 				97F347A91C50E82C0054A67D /* laolUITests */,
+				975C10581C5EFC40004E1BAD /* laolBundle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		975C10571C5EFC40004E1BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975C10601C5EFCE8004E1BAD /* lll.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97F347841C50E82C0054A67D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				97F347991C50E82C0054A67D /* LaunchScreen.storyboard in Resources */,
 				97F347961C50E82C0054A67D /* Assets.xcassets in Resources */,
-				97F347941C50E82C0054A67D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,12 +426,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		975C10551C5EFC40004E1BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97F347821C50E82C0054A67D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97F347911C50E82C0054A67D /* ViewController.m in Sources */,
-				97F3478E1C50E82C0054A67D /* AppDelegate.m in Sources */,
+				975C106F1C5F0CD6004E1BAD /* LLBaseViewController.m in Sources */,
+				975C10721C5F0D06004E1BAD /* LLMainViewController.m in Sources */,
+				97F3478E1C50E82C0054A67D /* LLAppDelegate.m in Sources */,
 				97F3478B1C50E82C0054A67D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,14 +476,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		97F347921C50E82C0054A67D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97F347931C50E82C0054A67D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		97F347971C50E82C0054A67D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -403,6 +487,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		975C105C1C5EFC40004E1BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = laolBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfp.laolBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		975C105D1C5EFC40004E1BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = laolBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfp.laolBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		97F347B11C50E82C0054A67D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -562,6 +678,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		975C105E1C5EFC40004E1BAD /* Build configuration list for PBXNativeTarget "laolBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975C105C1C5EFC40004E1BAD /* Debug */,
+				975C105D1C5EFC40004E1BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		97F347811C50E82C0054A67D /* Build configuration list for PBXProject "laol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

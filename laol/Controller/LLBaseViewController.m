@@ -6,16 +6,17 @@
 //  Copyright © 2016年 芳坪梁. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LLBaseViewController.h"
 
-@interface ViewController ()
+@interface LLBaseViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LLBaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
