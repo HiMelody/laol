@@ -25,7 +25,6 @@
 		979CA0851F69656F0043C7F0 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 979CA0801F69656F0043C7F0 /* libWeChatSDK.a */; };
 		979CA0861F69656F0043C7F0 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 979CA0811F69656F0043C7F0 /* README.txt */; };
 		97B2E44E1BA01CAC0018ECA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97B2E4501BA01CAC0018ECA0 /* InfoPlist.strings */; };
-		97E4943C1B8C43BF0096BD29 /* lll.db in Resources */ = {isa = PBXBuildFile; fileRef = 97E4943B1B8C43BF0096BD29 /* lll.db */; };
 		97E4943F1B8C46EF0096BD29 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E4943E1B8C46EF0096BD29 /* FirstTableViewController.m */; };
 		97E494461B8C55A30096BD29 /* first.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97E494451B8C55A30096BD29 /* first.plist */; };
 		97E4944C1B8C6B960096BD29 /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E4944B1B8C6B960096BD29 /* SecondTableViewController.m */; };
@@ -77,7 +76,6 @@
 		97B2E44D1BA01CA60018ECA0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		97B2E4511BA01CBC0018ECA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97B2E4531BA01CD20018ECA0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		97E4943B1B8C43BF0096BD29 /* lll.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = lll.db; path = ../../../../Desktop/lll.db; sourceTree = "<group>"; };
 		97E4943D1B8C46EF0096BD29 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
 		97E4943E1B8C46EF0096BD29 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
 		97E494451B8C55A30096BD29 /* first.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = first.plist; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 		978B419A1B8588E100702BCE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				97E4943B1B8C43BF0096BD29 /* lll.db */,
 				978B419B1B8588E100702BCE /* Info.plist */,
 				978B419C1B8588E100702BCE /* main.m */,
 				97E494451B8C55A30096BD29 /* first.plist */,
@@ -260,7 +257,7 @@
 				TargetAttributes = {
 					978B41961B8588E100702BCE = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = VP3UCK365B;
+						DevelopmentTeam = 4KL23686YD;
 						ProvisioningStyle = Automatic;
 					};
 					978B41AF1B8588E100702BCE = {
@@ -298,7 +295,6 @@
 				978B41A61B8588E100702BCE /* Main.storyboard in Resources */,
 				97B2E44E1BA01CAC0018ECA0 /* InfoPlist.strings in Resources */,
 				978B41AB1B8588E100702BCE /* LaunchScreen.xib in Resources */,
-				97E4943C1B8C43BF0096BD29 /* lll.db in Resources */,
 				97E4945A1B8C88EB0096BD29 /* SecondTableViewCell.xib in Resources */,
 				978B41A81B8588E100702BCE /* Images.xcassets in Resources */,
 				979CA0861F69656F0043C7F0 /* README.txt in Resources */,
@@ -478,7 +474,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Stephan Zimmermann (76RWDFKM24)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = VP3UCK365B;
+				DEVELOPMENT_TEAM = 4KL23686YD;
 				INFOPLIST_FILE = SmartCampus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -502,7 +498,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Stephan Zimmermann (76RWDFKM24)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = VP3UCK365B;
+				DEVELOPMENT_TEAM = 4KL23686YD;
 				INFOPLIST_FILE = SmartCampus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
