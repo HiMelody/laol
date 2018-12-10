@@ -12,6 +12,7 @@
 
 - (void)awakeFromNib {
     _tfNum.keyboardType = UIKeyboardTypeNumbersAndPunctuation;
+    [super awakeFromNib];
 }
 
 -(NSString *)getContent{
