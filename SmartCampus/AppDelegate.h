@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WXApi.h"
+#import <WechatOpenSDK/WXApi.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate,WXApiDelegate>
 

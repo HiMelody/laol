@@ -7,14 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		97468A2A1D825D04000D0CBB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97468A291D825D04000D0CBB /* CoreTelephony.framework */; };
-		97468A2C1D826156000D0CBB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97468A2B1D826156000D0CBB /* SystemConfiguration.framework */; };
-		97468A301D82618D000D0CBB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97468A2F1D82618D000D0CBB /* libc++.tbd */; };
-		97468A321D82619B000D0CBB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97468A311D82619B000D0CBB /* libz.tbd */; };
-		97468A341D8261AA000D0CBB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97468A331D8261AA000D0CBB /* Security.framework */; };
-		97468A361D8265DC000D0CBB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97468A351D8265DC000D0CBB /* libsqlite3.tbd */; };
-		97468A391D82C688000D0CBB /* WXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97468A381D82C688000D0CBB /* WXManager.m */; };
-		976EDD491B8F1E160008EF44 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976EDD481B8F1E160008EF44 /* MessageUI.framework */; };
+		3AF0F6C17C288E339AE5189F /* Pods_SmartCampus_SmartCampusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9CC47F6C83726A61994A92 /* Pods_SmartCampus_SmartCampusTests.framework */; };
+		452B799AB38EB6DACB4FA2D1 /* Pods_SmartCampus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C520DEB3BD8ACEB28C647E76 /* Pods_SmartCampus.framework */; };
 		9770DDD11C80321E00718D85 /* LLLDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9770DDD01C80321E00718D85 /* LLLDefine.m */; };
 		978B419D1B8588E100702BCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 978B419C1B8588E100702BCE /* main.m */; };
 		978B41A01B8588E100702BCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 978B419F1B8588E100702BCE /* AppDelegate.m */; };
@@ -22,8 +16,6 @@
 		978B41A81B8588E100702BCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978B41A71B8588E100702BCE /* Images.xcassets */; };
 		978B41AB1B8588E100702BCE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 978B41A91B8588E100702BCE /* LaunchScreen.xib */; };
 		978B41B71B8588E100702BCE /* SmartCampusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 978B41B61B8588E100702BCE /* SmartCampusTests.m */; };
-		979CA0851F69656F0043C7F0 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 979CA0801F69656F0043C7F0 /* libWeChatSDK.a */; };
-		979CA0861F69656F0043C7F0 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 979CA0811F69656F0043C7F0 /* README.txt */; };
 		97B2E44E1BA01CAC0018ECA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97B2E4501BA01CAC0018ECA0 /* InfoPlist.strings */; };
 		97E4943F1B8C46EF0096BD29 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E4943E1B8C46EF0096BD29 /* FirstTableViewController.m */; };
 		97E494461B8C55A30096BD29 /* first.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97E494451B8C55A30096BD29 /* first.plist */; };
@@ -44,16 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		97468A291D825D04000D0CBB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		97468A2B1D826156000D0CBB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		97468A2D1D826177000D0CBB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		97468A2F1D82618D000D0CBB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		97468A311D82619B000D0CBB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		97468A331D8261AA000D0CBB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		97468A351D8265DC000D0CBB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		97468A371D82C688000D0CBB /* WXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXManager.h; sourceTree = "<group>"; };
-		97468A381D82C688000D0CBB /* WXManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXManager.m; sourceTree = "<group>"; };
-		976EDD481B8F1E160008EF44 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		12D6C58D1012B7376B7AD5DE /* Pods-SmartCampusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCampusTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartCampusTests/Pods-SmartCampusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		261F4D05CBC48008A49D260B /* Pods-SmartCampus-SmartCampusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCampus-SmartCampusTests.release.xcconfig"; path = "Target Support Files/Pods-SmartCampus-SmartCampusTests/Pods-SmartCampus-SmartCampusTests.release.xcconfig"; sourceTree = "<group>"; };
+		32660999296B75CC4BD3140F /* Pods-SmartCampus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCampus.debug.xcconfig"; path = "Target Support Files/Pods-SmartCampus/Pods-SmartCampus.debug.xcconfig"; sourceTree = "<group>"; };
+		38078797252AC771E394F28C /* Pods-SmartCampus-SmartCampusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCampus-SmartCampusTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartCampus-SmartCampusTests/Pods-SmartCampus-SmartCampusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D90B6096CF642CC6F7938D9 /* Pods-SmartCampusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCampusTests.release.xcconfig"; path = "Target Support Files/Pods-SmartCampusTests/Pods-SmartCampusTests.release.xcconfig"; sourceTree = "<group>"; };
+		571F51B1C2ECACA115A87A55 /* Pods-SmartCampus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCampus.release.xcconfig"; path = "Target Support Files/Pods-SmartCampus/Pods-SmartCampus.release.xcconfig"; sourceTree = "<group>"; };
 		9770DDCF1C80321E00718D85 /* LLLDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLDefine.h; sourceTree = "<group>"; };
 		9770DDD01C80321E00718D85 /* LLLDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLDefine.m; sourceTree = "<group>"; };
 		978B41971B8588E100702BCE /* SmartCampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCampus.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,11 +53,7 @@
 		978B41B01B8588E100702BCE /* SmartCampusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCampusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		978B41B51B8588E100702BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		978B41B61B8588E100702BCE /* SmartCampusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartCampusTests.m; sourceTree = "<group>"; };
-		979CA0801F69656F0043C7F0 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		979CA0811F69656F0043C7F0 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		979CA0821F69656F0043C7F0 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		979CA0831F69656F0043C7F0 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		979CA0841F69656F0043C7F0 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		97A7D99E2595C6340037444E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		97B2E44A1BA01C9C0018ECA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97B2E44B1BA01C9C0018ECA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		97B2E44C1BA01CA60018ECA0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -86,6 +70,8 @@
 		97E494561B8C88EB0096BD29 /* SecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewCell.h; sourceTree = "<group>"; };
 		97E494571B8C88EB0096BD29 /* SecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewCell.m; sourceTree = "<group>"; };
 		97E494581B8C88EB0096BD29 /* SecondTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondTableViewCell.xib; sourceTree = "<group>"; };
+		AC9CC47F6C83726A61994A92 /* Pods_SmartCampus_SmartCampusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartCampus_SmartCampusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C520DEB3BD8ACEB28C647E76 /* Pods_SmartCampus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartCampus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,14 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97468A361D8265DC000D0CBB /* libsqlite3.tbd in Frameworks */,
-				97468A341D8261AA000D0CBB /* Security.framework in Frameworks */,
-				979CA0851F69656F0043C7F0 /* libWeChatSDK.a in Frameworks */,
-				97468A321D82619B000D0CBB /* libz.tbd in Frameworks */,
-				97468A301D82618D000D0CBB /* libc++.tbd in Frameworks */,
-				97468A2C1D826156000D0CBB /* SystemConfiguration.framework in Frameworks */,
-				97468A2A1D825D04000D0CBB /* CoreTelephony.framework in Frameworks */,
-				976EDD491B8F1E160008EF44 /* MessageUI.framework in Frameworks */,
+				452B799AB38EB6DACB4FA2D1 /* Pods_SmartCampus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,27 +87,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF0F6C17C288E339AE5189F /* Pods_SmartCampus_SmartCampusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E45490096767993B7B8D732 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32660999296B75CC4BD3140F /* Pods-SmartCampus.debug.xcconfig */,
+				571F51B1C2ECACA115A87A55 /* Pods-SmartCampus.release.xcconfig */,
+				12D6C58D1012B7376B7AD5DE /* Pods-SmartCampusTests.debug.xcconfig */,
+				4D90B6096CF642CC6F7938D9 /* Pods-SmartCampusTests.release.xcconfig */,
+				38078797252AC771E394F28C /* Pods-SmartCampus-SmartCampusTests.debug.xcconfig */,
+				261F4D05CBC48008A49D260B /* Pods-SmartCampus-SmartCampusTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		978B418E1B8588E100702BCE = {
 			isa = PBXGroup;
 			children = (
-				979CA0731F6961E70043C7F0 /* SDKExport */,
-				97468A351D8265DC000D0CBB /* libsqlite3.tbd */,
-				97468A331D8261AA000D0CBB /* Security.framework */,
-				97468A311D82619B000D0CBB /* libz.tbd */,
-				97468A2F1D82618D000D0CBB /* libc++.tbd */,
-				97468A2D1D826177000D0CBB /* libsqlite3.0.tbd */,
-				97468A2B1D826156000D0CBB /* SystemConfiguration.framework */,
-				97468A291D825D04000D0CBB /* CoreTelephony.framework */,
-				976EDD481B8F1E160008EF44 /* MessageUI.framework */,
 				978B41991B8588E100702BCE /* SmartCampus */,
 				978B41B31B8588E100702BCE /* SmartCampusTests */,
 				978B41981B8588E100702BCE /* Products */,
+				6E45490096767993B7B8D732 /* Pods */,
+				CAC99F145AD5DF9F74A90EFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,8 +147,6 @@
 				978B41A71B8588E100702BCE /* Images.xcassets */,
 				978B41A91B8588E100702BCE /* LaunchScreen.xib */,
 				978B419A1B8588E100702BCE /* Supporting Files */,
-				97468A371D82C688000D0CBB /* WXManager.h */,
-				97468A381D82C688000D0CBB /* WXManager.m */,
 			);
 			path = SmartCampus;
 			sourceTree = "<group>";
@@ -195,17 +179,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		979CA0731F6961E70043C7F0 /* SDKExport */ = {
+		CAC99F145AD5DF9F74A90EFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				979CA0801F69656F0043C7F0 /* libWeChatSDK.a */,
-				979CA0811F69656F0043C7F0 /* README.txt */,
-				979CA0821F69656F0043C7F0 /* WechatAuthSDK.h */,
-				979CA0831F69656F0043C7F0 /* WXApi.h */,
-				979CA0841F69656F0043C7F0 /* WXApiObject.h */,
+				97A7D99E2595C6340037444E /* libc++.tbd */,
+				C520DEB3BD8ACEB28C647E76 /* Pods_SmartCampus.framework */,
+				AC9CC47F6C83726A61994A92 /* Pods_SmartCampus_SmartCampusTests.framework */,
 			);
-			name = SDKExport;
-			path = SmartCampus/SDKExport;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 978B41BA1B8588E100702BCE /* Build configuration list for PBXNativeTarget "SmartCampus" */;
 			buildPhases = (
+				4D8DB172EB114FC2F05A990A /* [CP] Check Pods Manifest.lock */,
 				978B41931B8588E100702BCE /* Sources */,
 				978B41941B8588E100702BCE /* Frameworks */,
 				978B41951B8588E100702BCE /* Resources */,
@@ -232,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 978B41BD1B8588E100702BCE /* Build configuration list for PBXNativeTarget "SmartCampusTests" */;
 			buildPhases = (
+				BEB44665D1097F28E84D114D /* [CP] Check Pods Manifest.lock */,
 				978B41AC1B8588E100702BCE /* Sources */,
 				978B41AD1B8588E100702BCE /* Frameworks */,
 				978B41AE1B8588E100702BCE /* Resources */,
@@ -252,12 +235,12 @@
 		978B418F1B8588E100702BCE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "芳坪梁";
 				TargetAttributes = {
 					978B41961B8588E100702BCE = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = 4KL23686YD;
+						DevelopmentTeam = 97GD2N84ZV;
 						ProvisioningStyle = Automatic;
 					};
 					978B41AF1B8588E100702BCE = {
@@ -269,7 +252,7 @@
 			};
 			buildConfigurationList = 978B41921B8588E100702BCE /* Build configuration list for PBXProject "SmartCampus" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -297,7 +280,6 @@
 				978B41AB1B8588E100702BCE /* LaunchScreen.xib in Resources */,
 				97E4945A1B8C88EB0096BD29 /* SecondTableViewCell.xib in Resources */,
 				978B41A81B8588E100702BCE /* Images.xcassets in Resources */,
-				979CA0861F69656F0043C7F0 /* README.txt in Resources */,
 				97E494461B8C55A30096BD29 /* first.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,12 +293,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D8DB172EB114FC2F05A990A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartCampus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEB44665D1097F28E84D114D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartCampus-SmartCampusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		978B41931B8588E100702BCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97468A391D82C688000D0CBB /* WXManager.m in Sources */,
 				97E4943F1B8C46EF0096BD29 /* FirstTableViewController.m in Sources */,
 				97E494551B8C878E0096BD29 /* TableViewController.m in Sources */,
 				97E4944C1B8C6B960096BD29 /* SecondTableViewController.m in Sources */,
@@ -399,6 +427,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -425,7 +454,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "33f70d18-f4c1-4c89-868c-0d4b01d8cef2";
@@ -456,6 +485,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -475,7 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "33f70d18-f4c1-4c89-868c-0d4b01d8cef2";
 				SDKROOT = iphoneos;
@@ -485,21 +515,41 @@
 		};
 		978B41BB1B8588E100702BCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32660999296B75CC4BD3140F /* Pods-SmartCampus.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Stephan Zimmermann (76RWDFKM24)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4KL23686YD;
+				DEVELOPMENT_TEAM = 97GD2N84ZV;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SmartCampus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SmartCampus/SDKExport",
+					"\"${PODS_ROOT}/WechatOpenSDK/WeChatSDK1.8.6.1\"",
 				);
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				MARKETING_VERSION = 1.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"WebKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shop.scj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -509,21 +559,40 @@
 		};
 		978B41BC1B8588E100702BCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571F51B1C2ECACA115A87A55 /* Pods-SmartCampus.release.xcconfig */;
 			buildSettings = {
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Stephan Zimmermann (76RWDFKM24)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4KL23686YD;
+				DEVELOPMENT_TEAM = 97GD2N84ZV;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SmartCampus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SmartCampus/SDKExport",
+					"\"${PODS_ROOT}/WechatOpenSDK/WeChatSDK1.8.6.1\"",
 				);
+				MARKETING_VERSION = 1.3;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"WebKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shop.scj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -533,6 +602,7 @@
 		};
 		978B41BE1B8588E100702BCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38078797252AC771E394F28C /* Pods-SmartCampus-SmartCampusTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -556,6 +626,7 @@
 		};
 		978B41BF1B8588E100702BCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261F4D05CBC48008A49D260B /* Pods-SmartCampus-SmartCampusTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";

@@ -9,7 +9,7 @@
 #import "SecondTableViewController.h"
 #import "SecondTableViewCell.h"
 #import "LLLDefine.h"
-#import "WXApi.h"
+#import <WechatOpenSDK/WXApi.h>
 
 
 @interface SecondTableViewController()
@@ -26,7 +26,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [WXManager shareManager].delegate = self;
     [self initData];
     [self initUI];
 
@@ -164,29 +163,29 @@
 
 
 - (void)sendWX{
-    
-    if ([WXApi isWXAppInstalled]) {
-        NSString *sms = [[NSString alloc] init];
-        for (int i=0; i < _cellArray.count; i++) {
-            SecondTableViewCell *cell = [_cellArray objectAtIndex:i];
-            if(cell != nil){
-                sms = [sms stringByAppendingString:[cell getContent]];
-            }
-            
-            
+    NSString *sms = [[NSString alloc] init];
+    for (int i=0; i < _cellArray.count; i++) {
+        SecondTableViewCell *cell = [_cellArray objectAtIndex:i];
+        if(cell != nil){
+            sms = [sms stringByAppendingString:[cell getContent]];
         }
-        
-        if(sms.length > 0){
+    }
+    
+    [UIPasteboard generalPasteboard].string = sms;
+    if(sms.length > 0){
+        if ([WXApi isWXAppInstalled]) {
             sms = [sms substringToIndex:sms.length-1];
             NSLog(@"%@",sms);
-            
             SendMessageToWXReq *reqMsg = [[SendMessageToWXReq alloc] init];
             reqMsg.bText = YES;
             reqMsg.text = sms;
             reqMsg.scene = WXSceneSession;
             [WXApi sendReq:reqMsg];
-            
+//            [WXApi sendReq:reqMsg completion:^(BOOL success) {
+//                NSLog(@"success=%@",success?@"true":@"false");
+//            }];
         }
+        
     }
 }
 
@@ -247,7 +246,7 @@
 
 -(void)messageComposeViewController:(MFMessageComposeViewController *)controller didFinishWithResult:(MessageComposeResult)result{
     
-    [controller dismissModalViewControllerAnimated:NO];//关键的一句   不能为YES
+    [controller dismissModalViewControllerAnimated:NO];
     
     switch ( result ) {
             

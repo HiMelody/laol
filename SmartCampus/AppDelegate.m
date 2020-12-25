@@ -20,7 +20,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    BOOL wxRegisterResult = [WXApi registerApp:@"wxe17ed11f12eac7cd"];
+    [WXApi registerApp:@"wxe17ed11f12eac7cd"];
+//    [WXApi registerApp:@"wxe17ed11f12eac7cd" universalLink:@"https://www.lll.com"];
+//    [WXApi checkUniversalLinkReady:^(WXULCheckStep step, WXCheckULStepResult * _Nonnull result) {
+//        NSLog(@"%@, %u, %@, %@", @(step), result.success, result.errorInfo, result.suggestion);
+//    }];
     return YES;
 }
 
@@ -54,6 +58,9 @@
     return [WXApi handleOpenURL:url delegate:self];
 }
 
+//- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler{
+//    return [WXApi handleOpenUniversalLink:userActivity delegate:self];
+//}
 
 - (void)onResp:(BaseResp *)resp{
 

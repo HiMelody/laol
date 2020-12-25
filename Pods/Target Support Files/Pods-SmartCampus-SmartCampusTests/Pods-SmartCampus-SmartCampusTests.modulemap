@@ -1,0 +1,6 @@
+framework module Pods_SmartCampus_SmartCampusTests {
+  umbrella header "Pods-SmartCampus-SmartCampusTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
